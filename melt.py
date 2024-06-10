@@ -12,11 +12,19 @@ Created on Mon Jun 10 09:32:11 2024
 
 def melt_at_point_M(T, melt_factor):
     if T > 0:
-        out = melt_factor*T
+        return  melt_factor*T
     else:
-        out = 0
+        return 0
         
-    return(out)
+
+
+def Accumulation_at_a_point_C(T,P,Tth):
+    if T < Tth:
+        return P
+    else:
+        return 0
+    
+    
 
 melt_factor  = 1    
 T = 3   
