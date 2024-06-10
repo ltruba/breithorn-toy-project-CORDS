@@ -4,21 +4,19 @@ Created on Mon Jun 10 09:32:11 2024
 
 @author: BontL
 """
-
+import numpy as np
 # Melt at a point M
 
 
  
 
-def melt_at_point_M(T, melt_factor):
+def melt(T, melt_factor):
     if T > 0:
         return  melt_factor*T
     else:
         return 0
         
-
-
-def Accumulation_at_a_point_C(T,P,Tth):
+def accumulate(T,P,Tth):
     if T < Tth:
         return P
     else:
@@ -28,7 +26,7 @@ def Accumulation_at_a_point_C(T,P,Tth):
 
 melt_factor  = 1    
 T = 3   
-out = melt_at_point_M(T, melt_factor)
+out = melt(T, melt_factor)
 
 
 # Precipitation function
