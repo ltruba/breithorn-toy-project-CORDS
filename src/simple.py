@@ -3,6 +3,14 @@
 Created on Mon Jun 10 14:39:57 2024
 
 @author: BontL
+
+Generate synthetic temperature data.
+
+Parameters:
+t (numpy.ndarray): Array of time values.
+
+Returns:
+numpy.ndarray: Array of temperature values.
 """
 
 import numpy as np
@@ -24,11 +32,14 @@ T_threshold = 4
 from melt import synthetic_T, synthetic_P
 import matplotlib.pyplot as plt
 
-Ts = synthetic_T(t)
-plt.plot(t,Ts)
+
+# Plot the synthetic temperature data
+plt.plot(t, T)
+plt.xlabel('Time (days)')
+plt.ylabel('Temperature (°C)')
+plt.title('Synthetic Temperature Data')
+plt.grid(True)
 plt.show()
-
-
 
 
 
