@@ -13,6 +13,15 @@ Returns:
 numpy.ndarray: Array of temperature values.
 """
 
+## returns a file name with git commit hash
+from utils import make_sha_filename
+
+basename = "file"
+ext = ".txt"
+filename = make_sha_filename(basename, ext)
+print(filename)
+
+
 import numpy as np
 t = np.arange(0,365,1/24)
 

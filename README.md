@@ -7,7 +7,7 @@ This package provides functions to generate synthetic temperature and precipitat
 To use this package, simply clone the repository and ensure you have the required dependencies installed.
 
 ```bash
-git clone https://github.com/yourusername/synthetic-climate-model.git
-cd synthetic-climate-model
+git clone https://github.com/ltruba/breithorn-toy-project-CORDS.git
+cd breithorn-toy-project-CORDS
 pip install -r requirements.txt
 

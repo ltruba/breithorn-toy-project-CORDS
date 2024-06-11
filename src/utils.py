@@ -38,10 +38,11 @@ def make_sha_filename(basename, ext):
     return f"{basename}-{postfix}{ext}"
 
 # Example usage
-basename = "file"
-ext = ".txt"
-filename = make_sha_filename(basename, ext)
-print(filename)
+
+# basename = "file"
+# ext = ".txt"
+# filename = make_sha_filename(basename, ext)
+# print(filename)
 
 ## Kontrolle aus git log:  7e725f2e72b539f820bcd69c24c02d77d794e484
 
