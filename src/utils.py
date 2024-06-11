@@ -21,7 +21,7 @@ from git import Repo
 
 def make_sha_filename(basename, ext):
     # Open the git-repository in the current directory
-    repo = Repo('..')  ## in the current directoty (Repo('.'))
+    repo = Repo('.')  ## in the current directoty (Repo('.'))
     
     # Get the object ID of the HEAD commit
     head_commit_id = repo.head.commit.hexsha

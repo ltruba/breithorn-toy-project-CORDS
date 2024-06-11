@@ -1,0 +1,9 @@
+name: breithorn-toy-project-env
+
+channels:
+  - conda-forge
+
+dependencies:
+  - numpy
+  - GitPython
+  - matplotlib
