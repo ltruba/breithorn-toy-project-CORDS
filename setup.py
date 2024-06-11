@@ -9,5 +9,8 @@ from setuptools import find_packages, setup
 
 setup(
     name='src',
+    install_requires=[
+        'requests'
+    ],
     packages=find_packages(),
 )

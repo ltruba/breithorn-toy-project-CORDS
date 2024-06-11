@@ -1,3 +1,11 @@
+# Ignore virtual environments
 .env
-.src.egg-info/*
-**\__pycache__
+
+# Ignore egg-info directory
+*.egg-info
+
+# Ignore compiled bytecode
+__pycache__/
+*.pyc
+
+results/*
